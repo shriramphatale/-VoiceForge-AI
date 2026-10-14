@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Build outputs
+dist/
+build/
+*.js.map
+
+# Data directory (audio files, database)
+data/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Python
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# PyTorch / TTS model cache (large files)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Test coverage
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+
+# Temporary files
+tmp/
+temp/
+*.tmp

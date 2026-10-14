@@ -1,0 +1,14 @@
+{
+  "name": "voiceforge-local-tts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local AI Voice Cloning and Text-to-Speech using Coqui XTTS-v2",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend run start",
+    "start:frontend": "npm --prefix frontend run preview"
+  }
+}
